@@ -114,11 +114,15 @@ span {
 
 @media (max-width: 720px) {
 .topContainer .text {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
 }
 
 .bottomContainer .text {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
+}
+
+.bottomContainer h3 {
+    padding: 0 1.5rem;
 }
 }
 
