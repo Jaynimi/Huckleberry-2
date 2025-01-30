@@ -82,3 +82,83 @@ span {
 .pText2 {
     padding: 5px 15px 15px 15px;
 }
+
+@media (max-width: 768px) {
+    .topContainer {
+        padding-left: 5%;
+    }
+
+    .bottomContainer .text {
+        width: 100%;
+        left: 0;
+        font-size: 0.95rem;
+    }
+
+    .pText, .pText2 {
+        padding-left: 5%;
+    }
+
+    .pText {
+        padding-top: 70px;
+    }
+
+    .bottomContainer h3 {
+        left: 0;
+        height: 2.5rem;
+        font-size: 1.09rem;
+        font-weight: 900;
+        padding: 0 2rem;
+    }
+}
+
+
+@media (max-width: 720px) {
+.topContainer .text {
+    font-size: 0.75rem;
+}
+
+.bottomContainer .text {
+    font-size: 0.75rem;
+}
+}
+
+@media (max-width: 390px) {
+.huckleberry {
+    font-size: 1.5em;
+}
+
+.topContainer .text {
+    font-size: 0.6rem;
+}
+
+.bottomContainer h3 {
+    padding: 0 1.2rem;
+    font-size: 0.9rem;
+}
+
+.bottomContainer .text {
+    font-size: 0.6rem;
+}
+
+.pText {
+    padding-top: 60px;
+}
+
+}
+
+@media (max-width: 220px) {
+    .topContainer .text {
+        font-size: 0.55rem;
+    }
+    
+    .bottomContainer h3 {
+        padding: 0 6px;
+        height: 2rem;
+        text-align: left;
+    }
+    
+    .pText {
+        padding-top: 50px;
+    }
+
+    }
